@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextBossMessage"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:background="@drawable/desktop"
+        android:ems="10"
+        android:hint="Boss Message"
+        android:textColor="#ffffff"
+        android:textColorLink="#ffffff" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/desktop"
+        android:ems="10"
+        android:hint="Message To Boss"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/stopAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/custom_btn_seagull"
+        android:gravity="center"
+        android:padding="10dip"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0.6"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Reply To Boss" />
+
+</LinearLayout>

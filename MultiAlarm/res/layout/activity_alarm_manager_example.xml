@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desktop"
+    tools:context=".AlarmManagerExample" >
+
+    <Button
+        android:id="@+id/buttonshow"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/buttonAdd"
+        android:layout_alignBottom="@+id/buttonAdd"
+        android:layout_alignRight="@+id/editTextMyAlternativeNo"
+        android:background="@drawable/custom_btn_seagull"
+        android:text="SHOW" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="Boss Number"
+        android:inputType="phone"
+        android:textColor="#FFFFFF" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editTextNumber"
+        android:layout_below="@+id/editTextNumber"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_btn_seagull"
+        android:text="ADD"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editTextMyAlternativeNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonAdd"
+        android:layout_below="@+id/buttonshow"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Alternative Number"
+        android:inputType="phone"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonShowMyAlternativeNo"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignRight="@+id/editTextMyAlternativeNo"
+        android:layout_below="@+id/editTextMyAlternativeNo"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/custom_btn_seagull"
+        android:text="SHOW" />
+
+    <Button
+        android:id="@+id/buttonAddMyAlternativeNo"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/buttonShowMyAlternativeNo"
+        android:layout_alignBottom="@+id/buttonShowMyAlternativeNo"
+        android:layout_alignLeft="@+id/editTextMyAlternativeNo"
+        android:background="@drawable/custom_btn_seagull"
+        android:text="ADD" />
+
+</RelativeLayout>
